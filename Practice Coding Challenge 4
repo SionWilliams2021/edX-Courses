@@ -34,3 +34,9 @@ years = 15
 
 
 #Add your code here!
+monthly_rate = rate / 12
+number_of_months = years * 12
+total_cost = cost * number_of_months * monthly_rate / (1 - ((1 + monthly_rate) ** -number_of_months))
+rounded_total_cost = round(total_cost,2)
+print("The total cost of the house will be $", rounded_total_cost)
+
