@@ -19,4 +19,6 @@ time_of_day = "PM"
 #The current time is 2AM: Cuckoo!Cuckoo!
 
 
-#Add your code here!
+#Add your code here!\
+cuckoo = "Cuckoo!" * current_hour
+print("The current time is " + str(current_hour) + time_of_day + ": " + cuckoo)
